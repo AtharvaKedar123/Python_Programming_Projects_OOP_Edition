@@ -11,6 +11,14 @@
 
 ---
 
+- [About](#about)  
+- [Projects Included](#projects-included)  
+- [Skills Highlighted](#skills-highlighted)  
+- [Connect With Me](#connect-with-me)
+- [How to Run Any Project](#how-to-run-any-project) 
+
+---
+
 ## About
 
 These Python OOP projects demonstrate hands-on experience with object-oriented programming concepts like classes, inheritance, polymorphism, abstraction, and encapsulation. They cover real-world scenarios, simulations, and analytics projects, designed to be modular, interactive, and easy to understand. Perfect for building a strong portfolio or practicing advanced Python skills.
@@ -30,9 +38,25 @@ These Python OOP projects demonstrate hands-on experience with object-oriented p
 
 ---
 
+## Skills Highlighted
+
+- OOP Concepts: Classes, Inheritance, Polymorphism, Abstraction, Encapsulation
+- Simulation & Analysis: Real-world scenarios modeled programmatically
+- Clean & Modular Code: Easy to read, maintain, and extend
+- Interactive CLI Applications
+
+---
+
+## Skills Highlighted
+
+- OOP Concepts: Classes, Inheritance, Polymorphism, Abstraction, Encapsulation
+- Simulation & Analysis: Real-world scenarios modeled programmatically
+- Clean & Modular Code: Easy to read, maintain, and extend
+- Interactive CLI Applications
+
 ## How to Run Any Project
 
-1. Clone the repository:
+- Clone the repository:
 
 ```bash
 git clone https://github.com/AtharvaKedar123/Python_Programming_Projects.git
