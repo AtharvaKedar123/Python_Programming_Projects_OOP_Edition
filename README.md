@@ -1,6 +1,6 @@
 # Python OOP Projects
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white) ![Encapsulation](https://img.shields.io/badge/ENCAPSULATION-purple?style=for-the-badge&logo=&logoColor=white) ![Inheritance](https://img.shields.io/badge/INHERITANCE-orange?style=for-the-badge&logo=&logoColor=white) ![Polymorphism](https://img.shields.io/badge/POLYMORPHISM-yellow?style=for-the-badge&logo=&logoColor=black) ![Abstraction](https://img.shields.io/badge/ABSTRACTION-green?style=for-the-badge&logo=&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white) ![Encapsulation](https://img.shields.io/badge/ENCAPSULATION-purple?style=for-the-badge&logo=&logoColor=white) ![Inheritance](https://img.shields.io/badge/INHERITANCE-orange?style=for-the-badge&logo=&logoColor=white) ![Polymorphism](https://img.shields.io/badge/POLYMORPHISM-yellow?style=for-the-badge&logo=&logoColor=black) ![Abstraction](https://img.shields.io/badge/ABSTRACTION-green?style=for-the-badge&logo=&logoColor=white) 
 
 > **“Transforming real-world problems into clean, scalable Python code using Object-Oriented Programming.”**
 
