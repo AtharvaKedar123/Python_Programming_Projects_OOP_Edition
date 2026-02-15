@@ -13,7 +13,8 @@
 
 - [About](#about)  
 - [Projects Included](#projects-included)  
-- [Skills Highlighted](#skills-highlighted)  
+- [Skills Highlighted](#skills-highlighted)
+- [Contributing](#contributing)
 - [Connect With Me](#connect-with-me)
 - [How to Run Any Project](#how-to-run-any-project) 
 
@@ -47,12 +48,22 @@ These Python OOP projects demonstrate hands-on experience with object-oriented p
 
 ---
 
-## Skills Highlighted
+## Contributions
 
-- OOP Concepts: Classes, Inheritance, Polymorphism, Abstraction, Encapsulation
-- Simulation & Analysis: Real-world scenarios modeled programmatically
-- Clean & Modular Code: Easy to read, maintain, and extend
-- Interactive CLI Applications
+ - Contributions are always welcome! Whether you're a beginner or an experienced developer, you can help improve this repository by:
+ - Adding new Python or web development projects
+ - Enhancing existing projects with new features or optimizations
+ - Fixing bugs or improving code quality
+ - Suggesting improvements, ideas, or best practices
+
+---
+
+## Connect With Me
+
+- Github: https://github.com/AtharvaKedar123
+- Email: atharva.dkedar@gmail.com
+
+---
 
 ## How to Run Any Project
 
