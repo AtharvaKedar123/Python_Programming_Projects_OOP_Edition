@@ -2,10 +2,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
 ![OOP](https://img.shields.io/badge/OOP-Concepts-lightgrey?style=for-the-badge)
-![Inheritance](https://img.shields.io/badge/Inheritance-✔️-green?style=for-the-badge)
-![Polymorphism](https://img.shields.io/badge/Polymorphism-✔️-blue?style=for-the-badge)
-![Abstraction](https://img.shields.io/badge/Abstraction-✔️-orange?style=for-the-badge)
-![Encapsulation](https://img.shields.io/badge/Encapsulation-✔️-purple?style=for-the-badge)
+![Encapsulation](https://img.shields.io/badge/ENCAPSULATION-purple?style=for-the-badge&logo=&logoColor=white)
+![Inheritance](https://img.shields.io/badge/INHERITANCE-orange?style=for-the-badge&logo=&logoColor=white)
+![Polymorphism](https://img.shields.io/badge/POLYMORPHISM-yellow?style=for-the-badge&logo=&logoColor=black)
+![Abstraction](https://img.shields.io/badge/ABSTRACTION-green?style=for-the-badge&logo=&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-IDE-0d1117?style=for-the-badge&logo=pycharm&logoColor=white)
 
 > **“Transforming real-world problems into clean, scalable Python code using Object-Oriented Programming.”**
 
