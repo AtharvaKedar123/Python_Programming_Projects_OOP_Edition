@@ -1,17 +1,18 @@
-# 🌌 Python OOP Projects 🚀
-
-![OOP Banner](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
-
-> **“Transforming real-world problems into clean, scalable Python code using Object-Oriented Programming.”**  
+# 🪐 Python OOP Projects 🚀
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
 ![OOP](https://img.shields.io/badge/OOP-Concepts-lightgrey?style=for-the-badge)
-![Portfolio](https://img.shields.io/badge/Portfolio-RecruiterFriendly-yellow)
-![Code Quality](https://img.shields.io/badge/Clean-Code-green)
+
+> **“Transforming real-world problems into clean, scalable Python code using Object-Oriented Programming.”**
 
 ---
 
 ## 🔥 Python OOP Projects Highlights
+
+![Stars](https://img.shields.io/badge/Portfolio-RecruiterFriendly-yellow)
+![Code Quality](https://img.shields.io/badge/Clean-Code-green)
+![Modular](https://img.shields.io/badge/Modular-Design-blue)
+![Interactive](https://img.shields.io/badge/CLI-Interactive-orange)
 
 - **Hands-on OOP Experience:** Real-world scenarios implemented using Python classes, inheritance, encapsulation, and polymorphism.  
 - **Portfolio & Recruiter Ready:** Perfect for interviews and GitHub portfolio reviews.  
@@ -40,6 +41,34 @@
 ```bash
 git clone https://github.com/AtharvaKedar123/Python_Programming_Projects.git
 
+    Navigate into a project folder:
+
+cd Python_Programming_Projects/Planetary_Mineral_Analyzer
+
+    Run the project:
+
+python main.py
+
+    Make sure Python 3.8+ is installed.
+
+🌟 Skills Highlighted
 
 
+
+
+    OOP Concepts: Classes, Inheritance, Polymorphism, Encapsulation
+
+    Simulation & Analysis: Real-world scenarios modeled programmatically
+
+    Clean & Modular Code: Easy to read, maintain, and extend
+
+    Interactive CLI Applications
+
+🤝 Connect With Me
+
+Let’s discuss Python, OOP, or software development!
+
+    LinkedIn
+
+    GitHub
 
