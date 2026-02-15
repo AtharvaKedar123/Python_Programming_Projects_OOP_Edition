@@ -12,7 +12,7 @@
 - [Projects Included](#projects-included)  
 - [How to Run Projects](#how-to-run-projects)  
 - [Supported IDEs](#supported-ides)  
-- [Contributing](#contributing)  
+- [Contributions](#contributions)  
 - [License](#license)  
 - [Contact](#contact)  
 
@@ -42,6 +42,16 @@ Projects cover real-world simulations, analytics, and modular systems. They are 
 | Crystal_Growth_Simulator_OOP | Simulates crystal growth based on physical parameters using Python OOP. | ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white) ![Encapsulation](https://img.shields.io/badge/ENCAPSULATION-purple?style=for-the-badge&logo=&logoColor=white) ![Inheritance](https://img.shields.io/badge/INHERITANCE-orange?style=for-the-badge&logo=&logoColor=white) ![Polymorphism](https://img.shields.io/badge/POLYMORPHISM-yellow?style=for-the-badge&logo=&logoColor=black) ![Abstraction](https://img.shields.io/badge/ABSTRACTION-green?style=for-the-badge&logo=&logoColor=white) |
 
 ---
+## Supported IDEs
+
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+
+---
+
+
+
+
 
 ## How to Run Projects
 
@@ -49,4 +59,8 @@ Projects cover real-world simulations, analytics, and modular systems. They are 
 
 ```bash
 git clone https://github.com/AtharvaKedar123/Python_Programming_Projects.git
+Navigate to the project folder:
+cd Python_Programming_Projects/<Project_Name>
+Run the main Python script:
+python main.py
 
