@@ -45,7 +45,7 @@ Projects cover real-world simulations, analytics, and modular systems. They are 
 ## Supported IDEs
 
 - ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-- ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
 - ![Spyder](https://img.shields.io/badge/Spyder-2C9334?style=for-the-badge&logo=python&logoColor=white)
 - ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-FF5E13?style=for-the-badge&logo=jupyter&logoColor=white) 
 - ![Thonny](https://img.shields.io/badge/Thonny-009B77?style=for-the-badge&logo=&logoColor=white) 
