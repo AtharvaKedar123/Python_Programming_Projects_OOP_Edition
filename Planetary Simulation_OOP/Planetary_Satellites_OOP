@@ -1,0 +1,83 @@
+class Satellite:
+    def __init__(self, name, orbit_radius, orbital_period):
+        if orbit_radius < 0 or orbital_period < 0:
+            raise ValueError("Orbit radius and orbital period must be non-negative")
+        self.name = name
+        self.orbit_radius = orbit_radius
+        self.orbital_period = orbital_period
+
+    def is_stable(self):
+        return 1 <= self.orbital_period <= 1000
+
+    def update_orbit(self, new_radius, new_period):
+        if new_radius < 0 or new_period < 0:
+            return -1
+        self.orbit_radius = new_radius
+        self.orbital_period = new_period
+        return True
+
+    def get_info(self):
+        return {
+            "name": self.name,
+            "orbit_radius": self.orbit_radius,
+            "orbital_period": self.orbital_period,
+            "stable": self.is_stable()
+        }
+
+
+class ArtificialSatellite(Satellite):
+    def __init__(self, name, orbit_radius, orbital_period, purpose):
+        super().__init__(name, orbit_radius, orbital_period)
+        self.purpose = purpose
+
+    def get_info(self):
+        info = super().get_info()
+        info["purpose"] = self.purpose
+        return info
+
+
+class Planet:
+    def __init__(self, name, radius, mass):
+        self.name = name
+        self.radius = radius
+        self.mass = mass
+        self.satellites = []
+
+    def add_satellite(self, satellite):
+        if not isinstance(satellite, Satellite):
+            return -1
+        self.satellites.append(satellite)
+        return True
+
+    def get_satellite_info(self):
+        info_list = []
+        for sat in self.satellites:
+            info_list.append(sat.get_info())
+        return info_list
+
+
+# ---------------- Sample Usage ----------------
+
+earth = Planet("Earth", 6371, 5.97e24)
+mars = Planet("Mars", 3389, 6.42e23)
+
+moon = Satellite("Moon", 384400, 27.3)
+phobos = Satellite("Phobos", 9376, 0.3)
+titan = ArtificialSatellite("TitanComm", 20000, 365, "Communication")
+
+earth.add_satellite(moon)
+mars.add_satellite(phobos)
+earth.add_satellite(titan)
+
+planets = [earth, mars]
+
+for planet in planets:
+    print(f"Planet: {planet.name}")
+    for sat in planet.get_satellite_info():
+        print(sat)
+
+# Example of updating orbit
+moon.update_orbit(385000, 28)
+print("\nAfter updating Moon's orbit:")
+for sat in earth.get_satellite_info():
+    print(sat)

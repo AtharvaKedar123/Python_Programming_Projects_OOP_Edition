@@ -1,0 +1,92 @@
+class Flight:
+    def __init__(self, flight_no, source, destination, seats, fare):
+        self.flight_no = flight_no
+        self.source = source
+        self.destination = destination
+        self.seats = seats
+        self.fare = fare
+
+    def get_flight_no(self):
+        return self.flight_no
+
+    def check_seat_availability(self, class_type):
+        return self.seats.get(class_type, 0) > 0
+
+    def book_seat(self, class_type):
+        if self.check_seat_availability(class_type):
+            self.seats[class_type] -= 1
+            return True
+        return False
+
+    def release_seat(self, class_type):
+        if class_type in self.seats:
+            self.seats[class_type] += 1
+            return True
+        return False
+
+
+class Passenger:
+    def __init__(self, passenger_id, passenger_name, wallet_balance):
+        self.passenger_id = passenger_id
+        self.passenger_name = passenger_name
+        self.wallet_balance = wallet_balance
+        self.booked_flights = []
+
+    def get_passenger_id(self):
+        return self.passenger_id
+
+    def get_passenger_name(self):
+        return self.passenger_name
+
+    def book_flight(self, flight, class_type):
+        if not flight.check_seat_availability(class_type):
+            return -1
+        fare = flight.fare.get(class_type)
+        if fare is None or self.wallet_balance < fare:
+            return -1
+        flight.book_seat(class_type)
+        self.wallet_balance -= fare
+        self.booked_flights.append((flight, class_type))
+        return fare
+
+    def cancel_flight(self, flight, class_type):
+        for booking in self.booked_flights:
+            if booking[0] == flight and booking[1] == class_type:
+                self.booked_flights.remove(booking)
+                flight.release_seat(class_type)
+                self.wallet_balance += flight.fare[class_type] * 0.5
+                return "Cancellation successful"
+        return -1
+
+
+class AirlineSystem:
+    def __init__(self, airline_name):
+        self.airline_name = airline_name
+
+    def reserve_ticket(self, passenger, flight, class_type):
+        return passenger.book_flight(flight, class_type)
+
+    def cancel_ticket(self, passenger, flight, class_type):
+        return passenger.cancel_flight(flight, class_type)
+
+
+f1 = Flight("AI101", "Mumbai", "Delhi", {"Economy": 2, "Business": 2}, {"Economy": 5000, "Business": 7000})
+f2 = Flight("AI102", "Delhi", "Bangalore", {"Economy": 3, "Business": 1}, {"Economy": 4000, "Business": 10000})
+
+p1 = Passenger(701, "Alice", 20000)
+p2 = Passenger(702, "Bob", 3000)
+
+airline = AirlineSystem("SkyHigh Airlines")
+
+print(airline.reserve_ticket(p1, f1, "Economy"))
+print(airline.reserve_ticket(p1, f1, "Business"))
+print(airline.reserve_ticket(p1, f2, "Economy"))
+print(airline.reserve_ticket(p2, f2, "Economy"))
+print(airline.reserve_ticket(p1, f1, "Economy"))
+
+print(airline.cancel_ticket(p1, f1, "Business"))
+print(airline.cancel_ticket(p1, f1, "Business"))
+
+print(p1.wallet_balance)
+print(f1.seats)
+print(f2.seats)
