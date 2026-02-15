@@ -14,7 +14,7 @@
 - [About](#about)  
 - [Projects Included](#projects-included)  
 - [Skills Highlighted](#skills-highlighted)
-- [Contributing](#contributing)
+- [Contributions](#Contributions)
 - [Connect With Me](#connect-with-me)
 - [How to Run Any Project](#how-to-run-any-project) 
 
