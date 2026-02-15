@@ -32,15 +32,7 @@ These Python OOP projects demonstrate hands-on experience with object-oriented p
 
 | Project | Description | Tech & OOP Concepts |
 |---------|-------------|-------------------|
-| Planetary_Mineral_Analyzer | Analyze planetary minerals using Python classes and modular functions. | 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
-![OOP](https://img.shields.io/badge/OOP-Concepts-lightgrey?style=for-the-badge)
-![Encapsulation](https://img.shields.io/badge/ENCAPSULATION-purple?style=for-the-badge&logo=&logoColor=white)
-![Inheritance](https://img.shields.io/badge/INHERITANCE-orange?style=for-the-badge&logo=&logoColor=white)
-![Polymorphism](https://img.shields.io/badge/POLYMORPHISM-yellow?style=for-the-badge&logo=&logoColor=black)
-![Abstraction](https://img.shields.io/badge/ABSTRACTION-green?style=for-the-badge&logo=&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)[Abstraction](https://img.shields.io/badge/Abstraction-✔️-orange?style=for-the-badge) ![Encapsulation](https://img.shields.io/badge/Encapsulation-✔️-purple?style=for-the-badge) |
+| Planetary_Mineral_Analyzer | Analyze planetary minerals using Python classes and modular functions. | ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)![OOP](https://img.shields.io/badge/OOP-Concepts-lightgrey?style=for-the-badge)![Encapsulation](https://img.shields.io/badge/ENCAPSULATION-purple?style=for-the-badge&logo=&logoColor=white)![Inheritance](https://img.shields.io/badge/INHERITANCE-orange?style=for-the-badge&logo=&logoColor=white)![Polymorphism](https://img.shields.io/badge/POLYMORPHISM-yellow?style=for-the-badge&logo=&logoColor=black)![Abstraction](https://img.shields.io/badge/ABSTRACTION-green?style=for-the-badge&logo=&logoColor=white)![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)[Abstraction](https://img.shields.io/badge/Abstraction-✔️-orange?style=for-the-badge) ![Encapsulation](https://img.shields.io/badge/Encapsulation-✔️-purple?style=for-the-badge) |
 | Genetic_Sequence_Analyzer | Models and analyzes DNA/RNA sequences using OOP. |
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
 ![OOP](https://img.shields.io/badge/OOP-Concepts-lightgrey?style=for-the-badge)
